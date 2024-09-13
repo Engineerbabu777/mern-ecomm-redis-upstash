@@ -1,6 +1,3 @@
-import Redis from "ioredis";
-import dotenv from "dotenv";
+import Redis from "ioredis"
 
-dotenv.config();
-
-export const redis = new Redis(process.env.UPSTASH_REDIS_URL);
+export const redis = new Redis("rediss://default:Ab0JAAIjcDEzMTFjMTRiOGViNzc0YzExYTVlMjViZmFiODk0Mzg3ZnAxMA@beloved-pika-48393.upstash.io:6379");
